@@ -105,12 +105,13 @@ title {
 }
 
 .section-1 {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-around; */
   background-image: linear-gradient(to right, #072633, #0f5471);
   margin-bottom: 60px;
   max-height: 200vh;
+  /* min-height: 100vh; */
 }
 
 .btn {
@@ -129,7 +130,7 @@ title {
   padding: 15px;
   background-color: white;
   height: 100%;
-  width: 100%;
+  /* width: 100%; */
   border: 2px #bd7418 solid;
   min-height: 600px;
   
@@ -301,7 +302,6 @@ display: none;
 
 .section-2 {
   min-height: 80vh;
-  max-height: 200vh;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -317,6 +317,7 @@ padding: 5px;
   justify-content: space-evenly;
   flex-wrap: wrap;
   min-width: 300px;
+  margin: 10px;
 }
 
 .box-icon {
