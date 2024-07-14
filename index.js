@@ -1,3 +1,5 @@
+/** @format */
+
 const slides = document.getElementsByClassName("carousel-item");
 const info = document.getElementsByClassName("carousel-info");
 const nextButton = document.getElementById("carousel-button-next");
@@ -14,13 +16,11 @@ function hideAllSlides() {
   }
 }
 function hideInfo() {
-  for (const i of info){
-   i.classList.remove("carousel-info-visible");
-   i.classList.add("carosuel-info-hidden");
+  for (const i of info) {
+    i.classList.remove("carousel-info-visible");
+    i.classList.add("carosuel-info-hidden");
   }
 }
-
-
 
 const handleMoveToNextSlide = function (e) {
   hideAllSlides();
@@ -63,18 +63,35 @@ const handleMoveToPrevSlide = function (e) {
 nextButton.addEventListener("click", handleMoveToNextSlide);
 prevButton.addEventListener("click", handleMoveToPrevSlide);
 
-const splash = document.querySelector(".splash");
-const a = document.querySelector(".logo.fade-in")
+// const splash = document.querySelector(".splash");
+// const a = document.querySelector(".logo.fade-in")
 
-document.addEventListener("DOMContentLoaded", () => {
-  setTimeout(() => {
-    splash.classList.add("display-none");
-  }, 3000);
-});
+// document.addEventListener("DOMContentLoaded", () => {
+//   setTimeout(() => {
+//     splash.classList.add("display-none");
+//   }, 3000);
+// });
 
-document.addEventListener("DOMContentLoaded", () => {
-    setTimeout(() => {
-    //   a.classList.remove("fade-in");
-      a.classList.add("fade-out");
-    }, 2000);
-  });
+// document.addEventListener("DOMContentLoaded", () => {
+//     setTimeout(() => {
+//     //   a.classList.remove("fade-in");
+//       a.classList.add("fade-out");
+//     }, 2000);
+//   });
+const the_animation = document.querySelectorAll(".animation");
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("scroll-animation");
+      }
+    });
+  },
+  { threshold: 0.4 }
+);
+//
+for (let i = 0; i < the_animation.length; i++) {
+  const elements = the_animation[i];
+  observer.observe(elements);
+}
