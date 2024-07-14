@@ -287,6 +287,12 @@ display: none;
   text-align: center;
   display: flex;
   flex-direction: column;
+  background-color: #083a51aa;
+}
+.section-2-hero {
+background-image: url("./images/istockphoto-1058267222-1024x1024.jpg");
+background-size: cover;
+/* height: 80vh; */
 }
 
 .section-2-text {
