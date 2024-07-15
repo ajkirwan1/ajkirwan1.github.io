@@ -1,0 +1,66 @@
+main {
+display: flex;
+height:60vh;
+justify-content: space-evenly;
+flex-wrap: wrap;
+padding: 3vh;
+}
+
+
+#contact-footer {
+  height: 18vh;
+}
+#contact-body{height:70vh}
+#subject {
+  height: 150px;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 1px; /* Some padding */ 
+  border: 1px solid #040404; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 8px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color:#deb074e8;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+ 
+}
+
+/* Add a background color and some padding around the form */
+.form-container {
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size:15px;
+    border: 1px solid rgb(6, 6, 6);
+    border-radius: 4px;
+    width:25%;
+    height: auto;
+    box-shadow:5px 5px 1px #00000026;
+    background-color:#deb074e8;
+    padding: 20px;
+    
+
+}

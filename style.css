@@ -200,6 +200,7 @@ justify-content: space-between;
   min-height: 16vh;
   flex-wrap: wrap;
   padding:  0px 25px;
+  border-bottom: 2px solid #bd7418;
 
   
 }
@@ -290,9 +291,9 @@ display: none;
   background-color: #083a51aa;
 }
 .section-2-hero {
-background-image: url("./images/istockphoto-1058267222-1024x1024.jpg");
+background-image: url("./images/glass.jpg");
 background-size: cover;
-/* height: 80vh; */
+height: 70vh;
 }
 
 .section-2-text {
@@ -323,9 +324,9 @@ padding: 5px;
   flex-basis: 20%;
   min-width: 300px;
   margin: 10px;
-  height: 350px;
+  height: 300px;
   border: 1px solid #231F20;
-  background-color: rgba(217, 217, 217, 0.7);
+  background-color: #deb074b8;
   box-shadow: 5px 5px 1px  #0000005b;
   display: flex;
   flex-direction:column;
