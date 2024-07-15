@@ -31,10 +31,10 @@ header {
   position: relative;
   height: 84vh;
   width: auto;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(background-small.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/projectorscreen1.jpg);
   background-size: cover;
-  border-top: 2px solid #bd7418 ;
+  
   
 }
 
@@ -50,8 +50,8 @@ h1 {
 
 h1, h2, h3, p, a {
 font-weight: 100;
-display: flex;
 align-items: flex-end;
+justify-content: center;
 
   }
 
@@ -284,7 +284,7 @@ display: none;
 }
 
 .section-2 {
-  min-height: 80vh;
+  /* min-height: 80vh; */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -293,7 +293,7 @@ display: none;
 .section-2-hero {
 background-image: url("./images/glass.jpg");
 background-size: cover;
-height: 70vh;
+/* height: 70vh; */
 }
 
 .section-2-text {
@@ -314,8 +314,9 @@ padding: 5px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  min-width: 300px;
+  min-width: 250px;
   margin: 10px;
+  padding: 60px;
 }
 
 .box-icon {
@@ -326,13 +327,18 @@ padding: 5px;
   margin: 10px;
   height: 300px;
   border: 1px solid #231F20;
-  background-color: #deb074b8;
-  box-shadow: 5px 5px 1px  #0000005b;
+  background-color:#d8ac738c;
   display: flex;
   flex-direction:column;
   align-items: center;
   justify-content: center;
   border-radius: 8px;
+  }
+  
+  .box-icon:hover{
+    box-shadow: 10px 10px 5px  #0000005b; 
+    border:1px solid #bd7418;
+    text-decoration: underline;
   }
 
 
