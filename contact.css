@@ -1,10 +1,15 @@
 main {
 display: flex;
-height:60vh;
+min-height:60vh;
 justify-content: space-evenly;
+align-items: center;
 flex-wrap: wrap;
 padding: 3vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images/projectorscreen1.jpg);
+    background-size: cover;
 }
+
+
 
 
 #contact-footer {
@@ -18,8 +23,8 @@ padding: 3vh;
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 1px; /* Some padding */ 
-  border: 1px solid #040404; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
+  border: rgb(172, 169, 169); /* Gray border */
+  border-radius: 6px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 8px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
@@ -28,12 +33,13 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color:#deb074e8;
-  color: white;
-  padding: 14px 20px;
+  background-color:#fff7edbf;
+  color:#083a51;
+  padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
   cursor: pointer;
+  opacity: 0.9;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
@@ -43,9 +49,11 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 .form-container {
-  border-radius: 5px;
+  border-radius: 6px;
   display: flex;
   align-items: center;
+  flex-basis: 30%;
+  
   
 }
 
@@ -53,15 +61,21 @@ input[type=submit]:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     font-size:15px;
-    border: 1px solid rgb(6, 6, 6);
-    border-radius: 4px;
-    width:25%;
+    border: 1px solid rgb(172, 169, 169);
+    border-radius: 6px;
+    flex-basis: 25%;
     height: auto;
     box-shadow:5px 5px 1px #00000026;
-    background-color:#ffd39780;
+    background-color:#fff7edbf;
     padding: 20px;
-    
+    color: #083a51;
+   
+    }
+
+.contact-section h2,p {
+font-weight: 250;
 
 }
+
