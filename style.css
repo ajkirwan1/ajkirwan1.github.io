@@ -70,11 +70,7 @@ justify-content: center;
 
 .logo {
   height: 80px;
-  width: auto;
-  
-  
-
-  
+  width: auto;  
 }
 
 .logo-div {
@@ -104,6 +100,9 @@ title {
   font-size: 20px;
   display: flex;
   justify-content: center;
+}
+.bold {
+  font-weight: 500;
 }
 
 .img-container {
@@ -376,13 +375,13 @@ padding: 5px;
 footer {
   background-color:#fff7ed;
   border-top: 2px solid #bd7418;
-  height: 15vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   color:#072633;
   font-size: 15px;
-  
+  padding: 15px;
 }
 
 .footer-arrow {
