@@ -23,6 +23,13 @@ a:hover {
 
 
 }
+footer a {
+  color: #072633;
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-end;
+  padding: 15px;
+}
 
 header {
   display: flex;
@@ -218,11 +225,11 @@ justify-content: space-between;
   text-align: center;
   display: flex;
   justify-content: space-around;
-  padding:30px;
+  padding:35px;
 }
 
 input[type=radio]{
-  accent-color:#115978f7;
+  accent-color:#bd7418;
   
  
 }
@@ -369,14 +376,20 @@ padding: 5px;
 footer {
   background-color:#fff7ed;
   border-top: 2px solid #bd7418;
-  height: 20vh;
+  height: 15vh;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  color:#072633;
+  font-size: 15px;
   
 }
 
-
+.footer-arrow {
+  height: 35px;
+  width: auto;
+  opacity:0.7;
+}
 
 .kontakt-section2 {
   font-size: 12px;
