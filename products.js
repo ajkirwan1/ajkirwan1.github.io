@@ -15,19 +15,24 @@ const hideShow = document.querySelector(".product-item-links");
 // const upArrow = document.querySelector(".up-arrow");
 
 function toggleItem() {
-  console.log("ADA");
-  console.log(this);
-  console.log(this.previousElementSibling);
-  console.log(this.previousElementSibling.querySelector(".product-item-links"));
   var hideandShowDiv = this.previousElementSibling.querySelector(
     ".product-item-links"
   );
   var classList = hideandShowDiv.className.split(" ");
-  console.log(classList);
+  var info = this.parentElement.querySelector(".p-info");
 
   if (classList.includes("hide")) {
-    console.log("true");
+    var arrowElement = this.parentElement.querySelector(".down-arrow");
+    info.innerHTML = "Less information";
+    arrowElement.classList.remove("down-arrow");
+    arrowElement.classList.add("up-arrow");
     hideandShowDiv.classList.remove("hide");
+  } else {
+    var arrowElement = this.parentElement.querySelector(".up-arrow");
+    info.innerHTML = "More information";
+    arrowElement.classList.remove("up-arrow");
+    arrowElement.classList.add("down-arrow");
+    hideandShowDiv.classList.add("hide");
   }
 }
 for (i = 0; i < toggleButtons.length; i++) {
