@@ -14,18 +14,24 @@
         <img class="logo" src="./Simlift.png" href="index.html" />
       </a>
       <nav>
-        <a href="#">About</a>
+        <a href="about.html">About</a>
         <a href="#" class="bold">Products</a>
-        <a href="#">Contact</a>
+        <a href="contact.html">Contact</a>
         <img class="facebook-logo" src="./facebook-logo.svg" />
       </nav>
     </div>
     <div class="products-header">
       <h1>Products</h1>
+      <ul>
+        <li><a href="#simlift-s">SimLift S</a></li>
+        <li><a href="#simlift-m">Simlift M</a></li>
+        <li><a href="#simlift-s-simflap">Similift S + SimFlap</a></li>
+        <li><a href="#simlift-xl">Simlift XL PRO</a></li>
+      </ul>
     </div>
     <main>
       <ul>
-        <li>
+        <li id="simlift-s">
           <h1>Simlift S</h1>
           <div class="product-item-container-outer">
             <div class="product-item-container">
@@ -73,8 +79,10 @@
                   </div>
                 </div>
                 <div class="pdf-container">
-                  <img class="pdf" src="pdf1.svg" />
-                  <p>Product sheet</p>
+                  <a href="./pdfs/Winda S.pdf">
+                    <img class="pdf" src="pdf1.svg" />
+                    <p>Product sheet</p></a
+                  >
                 </div>
               </div>
             </div>
@@ -88,14 +96,14 @@
             </button>
           </div>
         </li>
-        <li>
+        <li id="simlift-m">
           <h1>Simlift M</h1>
           <div class="product-item-container-outer">
             <div class="product-item-container">
               <div class="product-item-img-and-description">
                 <img src="./images/Simlift_M_small.jpg" />
                 <div class="product-item-description">
-                  <h2>Simlift S</h2>
+                  <h2>Simlift M</h2>
                   <p>
                     Electric projector lift recommended for Home Cinema
                     projectors and middle size Business projectors. Lift with
@@ -136,8 +144,10 @@
                   </div>
                 </div>
                 <div class="pdf-container">
-                  <img class="pdf" src="pdf1.svg" />
-                  <p>Product sheet</p>
+                  <a href="./pdfs/Winda M.pdf">
+                    <img class="pdf" src="pdf1.svg" />
+                    <p>Product sheet</p></a
+                  >
                 </div>
               </div>
             </div>
@@ -151,7 +161,43 @@
             </button>
           </div>
         </li>
-        <li>
+        <li id="simlift-s-simflap">
+          <h1>Simlift S + SimFlap</h1>
+          <div class="product-item-container-outer">
+            <div class="product-item-container">
+              <div class="product-item-img-and-description">
+                <img src="./images/SimliftS_FLAP_small.jpg" />
+                <div class="product-item-description">
+                  <h2>Simlift S + SimFlap</h2>
+                  <p>
+                    Set of SimLift S projector lift and SimFlap ceiling flap.
+                    SimFlap was invented for easy integration with segmented
+                    false ceilings of 60x60cm segment size. It could be
+                    integrated with any type of false ceiling.
+                  </p>
+                  <p>€ 1421.00 (RRP)</p>
+                </div>
+              </div>
+              <div class="product-item-links hide" id="product-item-links">
+                <div class="pdf-container">
+                  <a href="./pdfs/Winda M Set.pdf">
+                    <img class="pdf" src="pdf1.svg" />
+                    <p>Product sheet</p></a
+                  >
+                </div>
+              </div>
+            </div>
+            <button class="hide-show-button" id="hide-show-button">
+              <p class="p-info">More information</p>
+              <img
+                class="down-arrow"
+                src="./icons/8665196_chevron_up_icon.svg"
+                alt=""
+              />
+            </button>
+          </div>
+        </li>
+        <li id="simlift-xl">
           <h1>Simlift XL PRO</h1>
           <div class="product-item-container-outer">
             <div class="product-item-container">
@@ -197,8 +243,10 @@
                   </div>
                 </div>
                 <div class="pdf-container">
-                  <img class="pdf" src="pdf1.svg" />
-                  <p>Product sheet</p>
+                  <a href="./pdfs//Winda XL.pdf">
+                    <img class="pdf" src="pdf1.svg" />
+                    <p>Product sheet</p></a
+                  >
                 </div>
               </div>
             </div>
