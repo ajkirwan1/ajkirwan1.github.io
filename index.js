@@ -95,3 +95,5 @@ for (let i = 0; i < the_animation.length; i++) {
   const elements = the_animation[i];
   observer.observe(elements);
 }
+
+
