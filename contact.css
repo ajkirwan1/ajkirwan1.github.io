@@ -1,15 +1,21 @@
 main {
-display: flex;
+/* display: flex;
 min-height:60vh;
 justify-content: space-evenly;
 align-items: center;
-flex-wrap: wrap;
+flex-wrap: wrap; */
 padding: 3vh;
 background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images/projectorscreen1.jpg);
     background-size: cover;
 }
 
-
+.content-container {
+  display: flex;
+  gap: 20px;
+  min-height:60vh;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 
 
 #contact-footer {
@@ -49,23 +55,32 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 .form-container {
+  /* border-radius: 6px; */
+  padding: 20px;
+  flex-basis: 50%;
+  flex-grow: 1;
+  background-color: #083a5187;
+  justify-content: center;
   border-radius: 6px;
-  display: flex;
-  align-items: center;
-  flex-basis: 40%;
-  min-width: 40%;
+  /* display: flex; */
+  /* align-items: center; */
+  /* flex-basis: 40%;
+  min-width: 40%; */
 }
 
 .contact-section {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: flex-start;
+    /* justify-content: center;
+    flex-direction: column;
+    align-items: flex-start; */
     font-size:15px;
     border: 1px solid rgb(172, 169, 169);
     border-radius: 6px;
-    flex-basis: 40%;
-    height: auto;
+    flex-basis: 20%;
+    flex-grow: 1;
+    /* height: auto; */
+    /* min-width: 450px; */
     box-shadow:5px 5px 1px #00000026;
     background-color:#fff7edbf;
     padding: 20px;
@@ -75,6 +90,5 @@ input[type=submit]:hover {
 
 .contact-section h2,p {
 font-weight: 250;
-
 }
 
