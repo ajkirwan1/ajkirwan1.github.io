@@ -126,7 +126,7 @@ title {
   height: 100%;
   border: 2px #bd7418 solid;
   min-height: 600px;
-  
+
 }
 
 .carousel-flex {
@@ -148,12 +148,13 @@ title {
 .section-1-outer-container {
   display: flex;
   gap: 15px;
+  margin:35px;
 
 }
 
 .section-1-inner-container-1 {
 color: #072633;
-background-color:#fff7ed;
+background-color:#3684e324;
 flex-basis: 50%;
 text-align: center;
 border: solid  rgba(0, 0, 0, 0.561) 0.2px;
@@ -225,10 +226,14 @@ justify-content: space-between;
   display: flex;
   justify-content: space-around;
   padding:35px;
+  color: transparent;
 }
 
 input[type=radio]{
-  accent-color:#bd7418;
+  accent-color:#07070766;
+  width: 0.7rem;
+  height: 0.7rem;
+  opacity:0.7;
   
  
 }
@@ -258,7 +263,7 @@ display: none;
 .carousel-info-visible {
   display: flex; /* show current slide image */
   animation: fadeVisibility 0.5s; /* for fading effect when switching between slides */
-  justify-content: space-around;
+  justify-content: center;
   height: 100%;
   flex-direction: column;
   align-items: center;
@@ -322,6 +327,7 @@ padding: 5px;
   flex-wrap: wrap;
   min-width: 250px;
   margin: 10px;
+  padding-bottom: 40px;
 }
 
 .box-icon {
@@ -386,7 +392,7 @@ footer {
 }
 
 .footer-arrow {
-  height: 35px;
+  height: 30px;
   width: auto;
   opacity:0.7;
 }
@@ -406,6 +412,7 @@ footer {
 
   .section-1-outer-container {
     flex-direction: column;
+    
   }
 
 
