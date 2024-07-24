@@ -8,9 +8,7 @@ body {
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: aliceblue;
     font-weight: 200;
-    margin:0px;
-
-    
+    margin:0px; 
 }
 
 a {
@@ -82,16 +80,27 @@ nav {
   justify-content: space-between;
   align-items:end;
   gap: 50px;
-  font-size: 30px;
   text-decoration: none;
-
-  
 }
 
 nav a {
   font-size: 22px;
   letter-spacing: 1px;
+  width: 100px;
+  text-align: center;
   
+}
+
+nav a::before {
+  font-size: 22px;
+  letter-spacing: 1px;
+  content:attr(text);
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  /* content: "klskl"; */
+  font-weight: 500;
+ width: 80px;
 }
 
 title {
