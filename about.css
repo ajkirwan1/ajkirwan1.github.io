@@ -7,6 +7,8 @@ main {
 }
 
 .about-section {
+
+
 border: 1px solid orange;
 border-radius: 6px;
 display: flex;
@@ -17,4 +19,8 @@ width: 70%;
 opacity: 0.8;
 background-color: #062e3f66;
 box-shadow: 5px 5px 1px #00000026;
+    
 }
+
+
+    
