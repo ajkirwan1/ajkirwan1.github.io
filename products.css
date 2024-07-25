@@ -101,6 +101,15 @@ text-decoration: underline 1px;
   justify-content: space-evenly;
 }
 
+
+.product-item-img-and-description img {
+height: 350px;
+width: auto;
+ 
+
+
+}
+
 .hide {
   display: none;
 }
