@@ -72,7 +72,10 @@ justify-content: center;
 }
 
 .logo-div {
-  height: 15vh;
+
+  
+    height: 15vh;
+
 }
 
 nav {
