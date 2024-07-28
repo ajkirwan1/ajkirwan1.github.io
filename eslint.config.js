@@ -4,19 +4,14 @@ import html from '@html-eslint/eslint-plugin'
 import parser from '@html-eslint/parser'
 
 export default [
-	// html.configs['flat/recommended'],
 	{
 		files: ['**/*.html'],
-		// ignores: ['eslint.config.js'],
 		plugins: {
 			'@html-eslint': html,
 		},
 		languageOptions: {
 			parser,
 		},
-		// parserOptions: {
-		// 	project: './.vscode/settings.json',
-		// },
 		rules: {
 			'@html-eslint/indent': 'error',
 			'@html-eslint/element-newline': 'error',
