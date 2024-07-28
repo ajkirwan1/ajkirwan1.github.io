@@ -22,11 +22,20 @@ main ul {
   height: 30px;
 }
 
-.products-header ul {
+.product-header-list {
+  border-top:2px solid #bd7418;
+  border-bottom:2px solid #bd7418;
+}
+
+.product-header-list ul{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  border-bottom:2px solid #bd7418;
+  gap: 40px;
+}
+
+.product-header-list li{
+  gap: 100px;
 }
 
 .product-item-container-outer {
