@@ -8,6 +8,7 @@ body {
   Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 200;
   color: aliceblue;
+  margin:0;
 }
 
 a {
@@ -250,6 +251,11 @@ input[type=radio]{
   display: none;
 }
 
+.carousel-info  p {
+  padding:30px;
+
+}
+
 .carousel-info-hidden {
   display: none;
   }
@@ -266,7 +272,7 @@ input[type=radio]{
 }
 
 .header-carousel-container button {
-  width: 50px;
+  width: 40px;
   height: 80px;
   border: 0;
   border-radius: 50px;

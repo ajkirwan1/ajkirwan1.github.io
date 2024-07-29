@@ -23,8 +23,8 @@ main ul {
 }
 
 .product-header-list {
-  border-top:2px solid #bd7418;
-  border-bottom:2px solid #bd7418;
+  border-top:2px solid #f0f8ff87;
+  border-bottom:2px solid #f0f8ff87;
 }
 
 .product-header-list ul{
@@ -127,4 +127,8 @@ main ul {
   .product-item-container-outer button {
     display:inline;
   }
+}
+
+.no-border {
+  border-bottom: none;
 }
